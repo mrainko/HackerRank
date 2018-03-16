@@ -8,7 +8,7 @@ using namespace std;
 
 void BirthdayChocolate()
 {
-  int n;
+ 	int n;
 	std::cin >> n;
 
 	std::vector<int> v(n);
