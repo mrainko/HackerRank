@@ -8,7 +8,7 @@ using namespace std;
 
 void AppleAnOrange()
 {
-  int c=0, c1=0;
+	int c=0, c1=0;
 	int houseStart, houseEnd;
 	int applePosition, orangePosition;
 	int applesOnTheGorund, orangesOnTheGround;
@@ -22,7 +22,7 @@ void AppleAnOrange()
 
 	for (int i = 0; i < applesOnTheGorund; i++)
 		std::cin >> apples[i];
-	
+
 	for (int i = 0; i < orangesOnTheGround; i++)
 		std::cin >> oranges[i];
 
