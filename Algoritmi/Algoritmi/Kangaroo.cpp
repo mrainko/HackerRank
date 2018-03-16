@@ -8,7 +8,7 @@ using namespace std;
 
 void Kangaroo()
 {
-  int x1,v1, x2, v2;
+  	int x1,v1, x2, v2;
 	std::cin >> x1 >> v1 >> x2 >> v2;
 
 	if (v1 <= v2)
