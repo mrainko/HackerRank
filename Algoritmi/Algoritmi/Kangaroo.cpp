@@ -15,9 +15,9 @@ void Kangaroo()
 		std::cout << "NO" << std::endl;
 	else
 	{
-		    if ((x2 - x1) % (v1 - v2) == 0)
-			    std::cout << "YES" << std::endl;
-        	else
-           		std::cout << "NO" << std::endl;
+		if ((x2 - x1) % (v1 - v2) == 0)
+			std::cout << "YES" << std::endl;
+		else
+			std::cout << "NO" << std::endl;
 	}
 }
